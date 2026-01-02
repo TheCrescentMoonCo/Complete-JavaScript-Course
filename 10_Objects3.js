@@ -18,8 +18,8 @@ console.log(instructor);
 
 // JSON API Intro
 
-{
-    name: 'Brendan Eich',
-    achievement: 'Created Mocha Language',
-    year: 1995
-}
+// {
+//     name: 'Brendan Eich',
+//     achievement: 'Created Mocha Language',
+//     year: 1995
+// }
