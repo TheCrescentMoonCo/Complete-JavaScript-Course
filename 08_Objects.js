@@ -26,7 +26,7 @@ console.log(user[mySymbol]);
 // Object.freeze(user);
 
 user.greeting = function() {
-    console.log(`Welcome! ${this.name}`);
+    console.log(`Welcome! ${This['name']}`);
 }
 
 console.log(user.greeting());
