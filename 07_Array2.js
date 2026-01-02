@@ -10,9 +10,9 @@ const differentTypeOfArrayList = [1, 2, 4, [0, 5], 7, [8, 9, [6, -1]]];  // .fla
 const flattedListOfDifferentArray = differentTypeOfArrayList.flat(Infinity);
 console.log(flattedListOfDifferentArray);
 
-// Array.from('Haphazard') method is use to convert any type of data into array
+// Array.from('TheCrescentMoonCo') method is use to convert any type of data into array
 
-console.log(Array.from("haphazard"));
+console.log(Array.from("TheCrescentMoonCo"));
 
 // Array.of(var1, var2, var3) method is use to create array from elements
 
