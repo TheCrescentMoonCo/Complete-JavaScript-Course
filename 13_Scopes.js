@@ -30,4 +30,3 @@ function one() {
 one();
 
 // Function expression(when function is stored in a variable) has no Hoisting power.
- 
