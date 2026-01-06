@@ -5,6 +5,4 @@
 
 (function display(){console.log('DB Connected')})();    // Named IIFE
 
-// IIFE with variable
-
-((name) => console.log(`${name}`))('DBMS');
+((name) => console.log(`${name}`))('DBMS');     // IIFE with variable
