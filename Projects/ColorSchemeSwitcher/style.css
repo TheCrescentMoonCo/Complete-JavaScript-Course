@@ -1,0 +1,40 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#project-title, #description {
+    font-weight: 600;
+}
+
+.option-container {
+    display: flex;
+    gap: 10px;
+}
+
+.option {
+    border: 2px solid black;
+    height: 80px;
+    width: 80px;
+    cursor: pointer;
+}
+
+#grey {
+    background-color: grey;
+}
+
+#white {
+    background-color: white;
+}
+
+#blue {
+    background-color: blue;
+}
+
+#yellow {
+    background-color: yellow;
+}

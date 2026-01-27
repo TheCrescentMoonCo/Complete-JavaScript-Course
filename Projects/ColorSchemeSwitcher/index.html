@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Color Scheme Switcher</title>
+</head>
+<body>
+    <div class="container">
+        <p id="project-title">Color Scheme Switcher</p>
+        <div class="option-container">
+            <div id="grey" class="option"></div>
+            <div id="white" class="option"></div>
+            <div id="blue" class="option"></div>
+            <div id="yellow" class="option"></div>
+        </div>
+        <p id="description">Try clicking on one of the colors above to change the background color of this page!</p>
+    </div>
+    <script>
+
+        const body = document.querySelector('body');
+        const options = document.querySelectorAll('.option');        
+
+        options.forEach(function(option){
+            option.addEventListener('click', function(e){
+                if(e.target.id === 'grey') {
+                    body.style.backgroundColor = e.target.id;
+                }
+                if(e.target.id === 'white') {
+                    body.style.backgroundColor = e.target.id;
+                }
+                if(e.target.id === 'blue') {
+                    body.style.backgroundColor = e.target.id;
+                }
+                if(e.target.id === 'yellow') {
+                    body.style.backgroundColor = e.target.id;
+                }
+            })
+        });
+
+    </script>
+</body>
+</html>
